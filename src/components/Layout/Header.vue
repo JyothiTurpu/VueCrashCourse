@@ -2,6 +2,10 @@
     <div>
         <header class="header">
             <h1>TODO LIST</h1>
+            <div id="nav">
+                <router-link to="/">Home</router-link> |
+                <router-link to="/about">About</router-link>
+            </div>
         </header>
         
     </div>
@@ -15,14 +19,15 @@ export default {
 
 <style scoped>
 .header {
-    background: #333;
+    background:grey;
     color: #ffffff;
     text-align: center;
     padding: 10px;
 }
 
 .header a {
-    color: #ffffff;
+    color: white;
     padding-right: 5px;
+    text-decoration: none;
 }
 </style>
